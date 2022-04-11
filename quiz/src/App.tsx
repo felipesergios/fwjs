@@ -65,7 +65,7 @@ function changeTab(id:any){
       <Card>
   <Card.Header>
   <ButtonGroup aria-label="Basic example">
-    {tabs_contents.map((txt,index)=>(<Button variant="secondary" key={index} onClick={()=>{changeTab(txt.id)}}>{txt.id}-{index}</Button>))}
+    {tabs_contents.map((txt,index)=>(<Button variant="primary" key={index} onClick={()=>{changeTab(txt.id)}}>{index}</Button>))}
     </ButtonGroup>
   </Card.Header>
   <Card.Body>
