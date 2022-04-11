@@ -1,8 +1,9 @@
 <script setup lang="ts">
+const name = "Felipe"
 </script>
 
 <template>
-  <h1>Olá mundo!</h1>
+  <h1>Olá {{name}}!</h1>
 </template>
 
 <style>
