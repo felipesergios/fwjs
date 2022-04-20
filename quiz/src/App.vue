@@ -1,16 +1,14 @@
 <script setup lang="ts">
-const name = "Felipe"
+import Tabs from './components/Tabs.vue';
+//import Quiz from './components/Quiz.vue'
+
 </script>
 
 <template>
-  <h1>Olá {{name}}!</h1>
+  <Tabs></Tabs>
 </template>
 
 <style>
+
 @import './assets/base.css';
-
-#app {
-  text-align: center;
-}
-
 </style>
