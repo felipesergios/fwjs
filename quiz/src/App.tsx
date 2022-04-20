@@ -42,7 +42,7 @@ const tabs_contents = [
 },
 {
   id:2,
-  content:"Conteudo do coisa 3"
+  content:"Conteudo do tab 3"
 },
 ]
 
